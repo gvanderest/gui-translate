@@ -1,0 +1,18 @@
+{
+  "name": "gui-translate",
+  "version": "0.1.0",
+  "description": "i18n functionality for ReactJS",
+  "main": "gui-translate.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "i18n",
+    "gui",
+    "translate",
+    "internationalization",
+    "reactjs"
+  ],
+  "author": "Guillaume VanderEst <guillaume@vanderest.org>",
+  "license": "ISC"
+}
