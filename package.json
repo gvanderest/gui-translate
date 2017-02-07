@@ -2,7 +2,7 @@
   "name": "gui-translate",
   "version": "0.1.0",
   "description": "i18n functionality for ReactJS",
-  "main": "gui-translate.js",
+  "main": "release/gui-translate.js",
   "scripts": {
     "test": "jest"
   },
@@ -14,5 +14,23 @@
     "reactjs"
   ],
   "author": "Guillaume VanderEst <guillaume@vanderest.org>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^18.0.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "webpack": "^2.2.1"
+  },
+  "eslintConfig": {
+    "presets": [
+      "es2015"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 6
+    }
+  },
+  "dependencies": {
+    "react": "^15.4.2"
+  }
 }
